@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title> Tiêu đề</title>
+</head>
+<body>
+	<script>
+		var userName= prompt('Nhập tên từ bàn phím:');
+		if(userName== 'Admin'){ 
+			var pass= prompt('Nhập mật khẩu:')
+			if(pass== 'TheMaster') alert('Welcome');
+			else if(pass== null) alert('Canceled');
+			else alert('Wrong password');
+		}else if(userName== null) alert('Canceled');
+		else alert('I don’t know you');
+
+	</script>
+</body>
